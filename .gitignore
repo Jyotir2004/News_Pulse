@@ -1,0 +1,22 @@
+# Dependencies and local Python environment
+node_modules/
+venv/
+.venv/
+
+# Local runtime data
+data/channels.json
+
+# Local secrets and logs
+.env
+.env.*
+!.env.example
+*.log
+npm-debug.log*
+
+# Generated output and coverage
+dist/
+coverage/
+
+# Operating system files
+.DS_Store
+Thumbs.db
